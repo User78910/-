@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Para Meu Amor ❤️</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff0f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #ffb6c1;
+      padding: 40px;
+      color: white;
+      font-size: 2em;
+    }
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 15px 0;
+    }
+    button {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #ff1493;
+    }
+    #surpresa {
+      display: none;
+      margin-top: 20px;
+      font-size: 1.2em;
+      color: #d6336c;
+    }
+    audio {
+      margin-top: 20px;
+      width: 90%;
+    }
+    iframe {
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    💕 Para o Amor da Minha Vida 💕
+  </header>
+
+  <section>
+    <h2>Nossa História</h2>
+    <p>Desde o dia em que te conheci, minha vida ficou mais colorida.  
+    Cada momento com você é especial e inesquecível.</p>
+
+    <img src="foto1.jpg" alt="Nós dois">
+    <p>Aqui podemos colocar a legenda da foto 💖</p>
+
+    <img src="foto2.jpg" alt="Outro momento especial">
+    <p>Outro dia incrível que vivemos juntos 🌹</p>
+
+    <h2>Para Sempre Nós</h2>
+    <p>Prometo sempre estar ao seu lado, nos momentos bons e ruins,  
+    porque você é o melhor presente que a vida me deu.</p>
+
+    <button onclick="mostrarSurpresa()">Clique para a surpresa 💌</button>
+    <div id="surpresa">
+      <p>💝 Surpresa! Eu te amo mais do que as palavras podem dizer.  
+      Aqui tem uma música que sempre vai me lembrar de você: 🎶</p>
+
+      <!-- Se você tiver um arquivo MP3 -->
+      <audio controls autoplay loop>
+        <source src="musica.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio.
+      </audio>
+
+      <!-- OU se quiser usar Spotify (troque o link pelo da música de vocês) -->
+      <iframe style="border-radius:12px" 
+        src="https://open.spotify.com/embed/track/7ouMYWpwJ422jRcDASZB7P?utm_source=generator" 
+        width="100%" height="152" frameBorder="0" 
+        allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+  <script>
+    function mostrarSurpresa() {
+      document.getElementById("surpresa").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
 
